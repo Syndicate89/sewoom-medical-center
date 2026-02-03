@@ -786,3 +786,61 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* Small Business & Old Device Optimization (320px - 375px) */
+@media (max-width: 375px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    /* Reduce heavy padding in cards */
+    .contact-info,
+    .contact-form,
+    .doctor-profile,
+    .feature-card,
+    .specialty-card,
+    .review-card {
+        padding: 25px 20px;
+    }
+
+    /* Adjust font sizes */
+    #hero h2 {
+        font-size: 28px;
+        word-break: keep-all;
+    }
+
+    .section-title h2 {
+        font-size: 26px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    /* Mobile Menu adjustments */
+    .mobile-menu-content {
+        width: 100%;
+        padding: 80px 20px 40px;
+    }
+
+    .mobile-nav-list li a {
+        font-size: 20px;
+    }
+
+    /* Floating widget adjustment */
+    .floating-widget {
+        right: 15px;
+        bottom: 20px;
+    }
+
+    .widget-btn {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    /* Button adjustments */
+    .btn {
+        padding: 12px 20px;
+        font-size: 15px;
+    }
+}
